@@ -9,7 +9,7 @@ public abstract class AbstractWeapons : MonoBehaviour
 
     protected virtual void Start()
     {
-        Debug.Log("start ");
+        Debug.Log("added weapon");
         StartCoroutine(LoopWeapon());
     }
 

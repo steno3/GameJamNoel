@@ -18,7 +18,6 @@ public class SnowBall : MonoBehaviour
         Camera cam = Camera.main;
         mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
         heading = new Vector2(mousePosition.x - cam.transform.position.x, mousePosition.y - cam.transform.position.y).normalized;
-        Debug.Log(heading);
     }
 
     void FixedUpdate()
