@@ -22,14 +22,8 @@ public class PlayerMovement : MonoBehaviour
     {
         if (!InputDisabled)
         {
-            if (_horizontal != 0 && _vertical != 0)
-            {
-                rb.velocity = new Vector2(_horizontal * moveSpeed / 1.4f, _vertical * moveSpeed / 1.4f);
-            }
-            else
-            {
-                rb.velocity = new Vector2(_horizontal * moveSpeed, _vertical * moveSpeed);
-            }
+                rb.velocity = new Vector2(_horizontal, _vertical).normalized * moveSpeed;
+            
         }
     }
 }
