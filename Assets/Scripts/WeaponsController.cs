@@ -1,18 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class WeaponsController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public List<GameObject> weapons; 
+    public int weaponsCount = 0; // 5 armes max ?
+    public GameObject snowball;
+
+
+    public void Start()
     {
-        
+        AddWeapon(snowball);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void AddWeapon(GameObject weapon)
     {
-        
+        weapons.Add(weapon);
+        weaponsCount++;
+        GameObject spawned = Instantiate(weapon,transform);
+        spawned.SetActive(true);
     }
+
 }

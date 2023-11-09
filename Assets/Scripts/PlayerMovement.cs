@@ -11,6 +11,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private float moveSpeed;
 
+    public int MaxHealth = 100;
+    public int Health = 100;
+
     void Update()
     {
         _horizontal = Input.GetAxisRaw("Horizontal");
@@ -21,8 +24,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (!InputDisabled)
         {
-                rb.velocity = new Vector2(_horizontal, _vertical).normalized * moveSpeed;
-            
+            rb.velocity = new Vector2(_horizontal, _vertical).normalized * moveSpeed;
         }
     }
 }
