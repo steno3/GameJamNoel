@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5595142473947579451}
   - component: {fileID: 5162692334565563726}
   m_Layer: 0
-  m_Name: Snow ground
+  m_Name: Basic_Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
