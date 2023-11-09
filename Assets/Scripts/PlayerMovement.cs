@@ -11,7 +11,6 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private float moveSpeed;
 
-    // Update is called once per frame
     void Update()
     {
         _horizontal = Input.GetAxisRaw("Horizontal");
