@@ -190,4 +190,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weapons: []
   weaponsCount: 0
-  snowballLauncher: {fileID: 1739095279643832339, guid: e011ca0bb49356b46adedfb8fa3ecf14, type: 3}
+  baseWeapon: {fileID: 1739095279643832339, guid: e011ca0bb49356b46adedfb8fa3ecf14, type: 3}

@@ -9,12 +9,21 @@ public class SnowBall : MonoBehaviour
     private Vector2 heading;
     private Vector2 mousePosition;
 
-    public float moveSpeed;
+    public float moveSpeed = 5;
+    public float damage = 10;
+    public float lifetime = 5f;
 
+    protected IEnumerator LifeTime(float time)
+    {
+        yield return new WaitForSeconds(time);
+        Destroy(gameObject);
+        //Debug.Log("destroyed");
+    }
     void Start()
     {
+        StartCoroutine(LifeTime(lifetime));
+
         rb = GetComponent<Rigidbody2D>();
-        heading = GetComponentInParent<SnowBallLauncher>().heading;
         Camera cam = Camera.main;
         mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
         heading = new Vector2(mousePosition.x - cam.transform.position.x, mousePosition.y - cam.transform.position.y).normalized;

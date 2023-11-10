@@ -7,12 +7,12 @@ public class WeaponsController : MonoBehaviour
 {
     public List<GameObject> weapons; 
     public int weaponsCount = 0; // 5 armes max ?
-    public GameObject snowballLauncher;
+    public GameObject baseWeapon;
 
 
     public void Start()
     {
-        AddWeapon(snowballLauncher);
+        AddWeapon(baseWeapon);
     }
 
     public void AddWeapon(GameObject weapon)
