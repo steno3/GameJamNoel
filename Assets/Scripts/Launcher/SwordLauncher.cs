@@ -10,7 +10,7 @@ public class SwordLauncher : AbstractWeapons
 
     protected override void Start()
     {
-        cooldown = 5f;
+        cooldown = 1f;
         base.Start();
     }
 

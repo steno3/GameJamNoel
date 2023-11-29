@@ -14,7 +14,7 @@ public class Sword : MonoBehaviour
     protected IEnumerator LifeTime(float time)
     {
         yield return new WaitForSeconds(time);
-        Destroy(gameObject);
+       Destroy(gameObject);
        
     }
     void Start()
