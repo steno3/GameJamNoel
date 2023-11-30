@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 98816fc35c9f708c2a5013c6461c5308
+guid: 74c534fa74ba3f14bbfbb5988c9992e9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 30
+  spritePixelsToUnits: 26
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -63,25 +63,12 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 2
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -98,7 +85,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -111,7 +98,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: jouet_chevalier_0
+      name: personnageprincipale_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 146
+        x: 29
+        y: 324
         width: 25
-        height: 29
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3098e606b1855e912b2e49739bb127d8
-      internalID: -941002337
+      spriteID: 5be6d6915efa7d344a8c27ae7afc2137
+      internalID: 493238727
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jouet_chevalier_1
+      name: personnageprincipale_1
       rect:
         serializedVersion: 2
-        x: 73
-        y: 146
+        x: 157
+        y: 324
         width: 25
-        height: 29
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +145,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58db049963b065aacb9e34a3e1291f72
-      internalID: 997137493
+      spriteID: 2d60f1114a7bcf141bb0a9aed31f029c
+      internalID: 371488230
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jouet_chevalier_2
+      name: personnageprincipale_2
       rect:
         serializedVersion: 2
-        x: 141
-        y: 146
+        x: 287
+        y: 323
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c00756fee054fb4e9bd28b127089b2e
+      internalID: -1239812992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personnageprincipale_3
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 323
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9822f6e7bc860ec4bbbb56204d4b0fb8
+      internalID: 1985280813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personnageprincipale_4
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 196
         width: 25
-        height: 29
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,62 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ffa1cbb50c04d1aa8b1bf489e8013f2
-      internalID: 682756886
+      spriteID: a4e3e0509d740c14e9ae0a09ef0f2020
+      internalID: -1420856781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jouet_chevalier_3
+      name: personnageprincipale_5
       rect:
         serializedVersion: 2
-        x: 13
-        y: 82
-        width: 19
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0dc993996df1c88968463f4c1ba42236
-      internalID: 1949925337
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: jouet_chevalier_4
-      rect:
-        serializedVersion: 2
-        x: 77
-        y: 82
-        width: 19
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 91588a635be522ec3a4caa195e36ca0e
-      internalID: 668637330
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: jouet_chevalier_5
-      rect:
-        serializedVersion: 2
-        x: 141
-        y: 82
+        x: 160
+        y: 196
         width: 25
-        height: 29
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,62 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a2be529ca1855e499bdd1984923d2a0
-      internalID: -1303878375
+      spriteID: c563b1a4e1d3600488c4e4ae22c067cf
+      internalID: 1608961720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jouet_chevalier_6
+      name: personnageprincipale_6
       rect:
         serializedVersion: 2
-        x: 13
-        y: 18
-        width: 19
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ea618d6a1edb3f87b91998e2ef234b8
-      internalID: 1801828656
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: jouet_chevalier_7
-      rect:
-        serializedVersion: 2
-        x: 77
-        y: 18
-        width: 26
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f3ab3fde592696cbe828f1c901291be0
-      internalID: 94132208
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: jouet_chevalier_8
-      rect:
-        serializedVersion: 2
-        x: 141
-        y: 18
+        x: 284
+        y: 196
         width: 25
-        height: 29
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,8 +250,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb3f3ee783b496989a5a409eb8b87ab6
-      internalID: 1248487425
+      spriteID: 9c942df317bc469438b6a8ed8088d76c
+      internalID: -1669460605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personnageprincipale_7
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 196
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6436ebf014ff849967691bad3a9483
+      internalID: 600350853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personnageprincipale_8
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 67
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fca59abad71e05489e1c2ece4f1dc45
+      internalID: -484452760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personnageprincipale_9
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 66
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13c269d585cc9c41be99f4e5ef32a56
+      internalID: 242818043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personnageprincipale_10
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 67
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5970d4dc1494f8640b76738d3f938b0e
+      internalID: 250629587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personnageprincipale_11
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 68
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09be083163f6e044f8ff7cbe5d8b052e
+      internalID: -805689992
       vertices: []
       indices: 
       edges: []
@@ -314,7 +364,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: b62d6ff7a3ffb0623be78ad6ad372c9a
+    spriteID: c093108954fd509478b5195355e2331f
     internalID: 0
     vertices: []
     indices: 
@@ -322,15 +372,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      jouet_chevalier_0: -941002337
-      jouet_chevalier_1: 997137493
-      jouet_chevalier_2: 682756886
-      jouet_chevalier_3: 1949925337
-      jouet_chevalier_4: 668637330
-      jouet_chevalier_5: -1303878375
-      jouet_chevalier_6: 1801828656
-      jouet_chevalier_7: 94132208
-      jouet_chevalier_8: 1248487425
+      personnageprincipale_0: 493238727
+      personnageprincipale_1: 371488230
+      personnageprincipale_10: 250629587
+      personnageprincipale_11: -805689992
+      personnageprincipale_12: 2066169046
+      personnageprincipale_2: -1239812992
+      personnageprincipale_3: 1985280813
+      personnageprincipale_4: -1420856781
+      personnageprincipale_5: 1608961720
+      personnageprincipale_6: -1669460605
+      personnageprincipale_7: 600350853
+      personnageprincipale_8: -484452760
+      personnageprincipale_9: 242818043
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
