@@ -22,6 +22,8 @@ public class Grid : MonoBehaviour
         GenerateMap(map);
     }
 
+
+
     void GenerateMap(Cell[,] map) {
         for(int x=0;x<size;x++){
             for(int y=0;y<size;y++){
