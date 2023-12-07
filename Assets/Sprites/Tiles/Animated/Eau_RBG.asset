@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Eau_RBG
   m_EditorClassIdentifier: 
   m_AnimatedSprites:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -1664275841, guid: 8016912b7fcfeaf43887547e0d829761, type: 3}
+  - {fileID: 2042209555, guid: 8016912b7fcfeaf43887547e0d829761, type: 3}
+  - {fileID: 1951382316, guid: 8016912b7fcfeaf43887547e0d829761, type: 3}
   m_MinSpeed: 2
   m_MaxSpeed: 2
   m_AnimationStartTime: 0
