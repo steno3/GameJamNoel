@@ -21,30 +21,33 @@ public class PlayerMovement : MonoBehaviour
         _vertical = Input.GetAxisRaw("Vertical");
 
         // les animations
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Time.timeScale != 0f)
         {
-            animator.SetTrigger("Up");
-        }
-        else if (Input.GetKeyDown(KeyCode.S))
-        {
-            animator.SetTrigger("Down");
-        }
-        else if (Input.GetKeyDown(KeyCode.A))
-        {
-            animator.SetTrigger("Left");
-        }
-        else if (Input.GetKeyDown(KeyCode.D))
-        {
-            animator.SetTrigger("Right");
-        }
-        
-        if (_horizontal == 0 && _vertical == 0)
-        {
-            animator.SetBool("Idle",true);
-        }
-        else
-        {
-            animator.SetBool("Idle",false);
+            if (Input.GetKeyDown(KeyCode.W))
+            {
+                animator.SetTrigger("Up");
+            }
+            else if (Input.GetKeyDown(KeyCode.S))
+            {
+                animator.SetTrigger("Down");
+            }
+            else if (Input.GetKeyDown(KeyCode.A))
+            {
+                animator.SetTrigger("Left");
+            }
+            else if (Input.GetKeyDown(KeyCode.D))
+            {
+                animator.SetTrigger("Right");
+            }
+
+            if (_horizontal == 0 && _vertical == 0)
+            {
+                animator.SetBool("Idle", true);
+            }
+            else
+            {
+                animator.SetBool("Idle", false);
+            }
         }
     }
 
