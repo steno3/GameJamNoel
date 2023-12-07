@@ -29,12 +29,12 @@ public class Grid : MonoBehaviour
             for(int y=0;y<size;y++){
                 if (map[x,y].isSpawn){
                     GameObject grid = Instantiate(gridPrefabs[0], transform);
-                    grid.transform.position = new Vector3(x*20, y*20, 0);
+                    grid.transform.position = new Vector3(x*20-size*10, y*20-(size+1)*10, 0);
                 }
                 else {
                 GameObject prefab = gridPrefabs[Random.Range(1,gridPrefabs.Length)];
                 GameObject grid = Instantiate(prefab, transform);
-                grid.transform.position = new Vector3(x*20, y*20, 0);
+                grid.transform.position = new Vector3(x*20-size*10, y*20-(size+1)*10, 0);
                 }
             }
         }
