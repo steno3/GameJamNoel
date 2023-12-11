@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro:
+using TMPro;
 
 public class HealthPlayerController : MonoBehaviour
 {
@@ -10,7 +10,7 @@ public class HealthPlayerController : MonoBehaviour
     // Health et MaxHealth déclaré public dans PlayerMovement
 
     public float MaxHealth = 100f;
-    public float Health = 100f;
+    public float Health = 75f;
 
     public Image HealthBar;
     public TextMeshProUGUI HealthText;
@@ -31,12 +31,12 @@ public class HealthPlayerController : MonoBehaviour
          */
     }
 
-    void DamageEnnemies(int damage)
+    public void DamageEnnemies(int damage)
     {
         Health -= damage;
     }
 
-    void HealPlayer(int heal)
+    public void HealPlayer(int heal)
     {
         Health += heal;
     }
