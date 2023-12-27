@@ -22,7 +22,7 @@ public class Fart : MonoBehaviour
         StartCoroutine(LifeTime(lifetime));
 
         range = 32 * size;
-        // taille = taille_actuelle * size
+        gameObject.transform.localScale = new Vector3(size,size,size);
     }
 
     void Update()

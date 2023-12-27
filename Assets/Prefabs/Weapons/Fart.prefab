@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 20
-  size: 1
+  size: 3
   range: 0
   lifetime: 3
 --- !u!95 &7217538969737761549
